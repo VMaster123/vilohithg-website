@@ -6,20 +6,33 @@ import { useRef } from 'react'
 
 const skills = [
   'Python',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Node.js',
-  'Machine Learning',
-  'TensorFlow',
   'PyTorch',
-  'Scientific Computing',
-  'Mathematical Modeling',
-  'Computational Fluid Dynamics',
+  'TensorFlow',
+  'Scikit-Learn',
+  'NumPy',
+  'Pandas',
+  'SQL',
+  'Java',
+  'MATLAB',
+  'R',
+  'Julia',
+  'C',
+  'C#',
+  'C++',
+  'Spark',
+  'CUDA',
+  'TypeScript',
+  'JavaScript',
+  'React',
   'Git',
-  'MongoDB',
-  'PostgreSQL',
+  'Docker',
+  'Linux',
+  'AWS',
+  'Scientific Machine Learning',
+  'Partial Differential Equations',
+  'Numerical Analysis',
+  'Control Theory',
+  'Reinforcement Learning',
 ]
 
 export default function About() {
@@ -46,10 +59,41 @@ export default function About() {
             className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-12"
           >
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I like to work on problems in Scientific Machine Learning, Partial Differential Equations, 
-              and Artificial Intelligence. Some projects include Computational Fluid Dynamics, 
-              Multi-Physics Simulation, and Mathematical Modeling to name a few.
+              I'm a 3rd year Computer Science major at Georgia Tech with a focus on Modeling/Simulation and Theory, 
+              and a minor in Mathematics. My research spans Scientific Machine Learning, Neural Partial Differential 
+              Equations, and Plasma Physics. I'm currently working on Neural PDEs for Nonlinear Chaotic Systems 
+              and Spectral Inverse Modeling of Space Plasmas.
             </p>
+            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+              I have experience in control theory, inverse problems, and dynamical systems, with applications 
+              ranging from brain emulation to plasma control. My work combines mathematical rigor with computational 
+              innovation to solve complex scientific problems.
+            </p>
+            
+            <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+              <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Leadership</h4>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                <span className="font-semibold">Southeast Analog Club GT Admin Officer:</span> Leading team to draft 
+                chapter Constitution, coordinating joint events with other campus organizations, and ensuring club 
+                compliance and active status.
+              </p>
+            </div>
+            
+            <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+              <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Languages</h4>
+              <div className="flex flex-wrap gap-3">
+                {['English (Native)', 'Spanish (Intermediate)', 'Telugu (Conversational)'].map((lang) => (
+                  <span
+                    key={lang}
+                    className="px-4 py-2 bg-purple-100 dark:bg-purple-900/30 
+                             text-purple-700 dark:text-purple-300 rounded-full 
+                             font-medium text-sm md:text-base"
+                  >
+                    {lang}
+                  </span>
+                ))}
+              </div>
+            </div>
 
             <div className="mt-8">
               <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">

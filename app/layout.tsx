@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Vilohith Gokarakonda - Portfolio',
-  description: 'Computational Science and Engineering Student | Machine Learning | AI | Data Science',
+  description: '3rd Year Computer Science Major at Georgia Tech | Scientific Machine Learning | Neural PDEs | Plasma Physics | Research Portfolio',
 }
 
 export default function RootLayout({

@@ -32,7 +32,7 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-2xl md:text-3xl font-semibold mb-4 text-indigo-100"
             >
-              Computational Science and Engineering Student
+              3rd Year Computer Science Major at Georgia Tech
             </motion.p>
             
             <motion.p
@@ -41,9 +41,10 @@ export default function Hero() {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-lg md:text-xl mb-8 text-indigo-50 leading-relaxed"
             >
-              I do projects primarily in combining machine learning to solve Scientific and Engineering problems.
-              This includes mathematical modeling, simulation, and optimization.
-              I also do projects in the field of Artificial Intelligence and Data Science.
+              Researcher in Scientific Machine Learning, Neural PDEs, and Plasma Physics. 
+              Currently working on Neural Partial Differential Equations for Nonlinear Chaotic Systems 
+              and Spectral Inverse Modeling of Space Plasmas. Passionate about combining ML with physics 
+              to solve complex scientific and engineering problems.
             </motion.p>
             
             <motion.div
