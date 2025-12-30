@@ -10,7 +10,7 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     title: "Optimal Plasma Control using Physics Informed RL",
-    description: "Developed a physics-informed PPO controller in Gym-TORAX to coordinate 3 coupled actuators (plasma current, NBI, ECRH) over 150s ITER discharge simulations. Achieved peak Q_fusion of ~200 during fusion phase while operating within 10-15% of key disruption thresholds. Engineered 2×256 MLP actor-critic with 50D diagnostic observation space, achieving 1.7ms average inference latency.",
+    description: "Developed a physics-informed PPO controller in Gym-TORAX to coordinate 3 coupled actuators (plasma current, NBI, ECRH) over 150s ITER discharge simulations, training for 200,000 iterations to achieve peak Q_fusion of roughly 200 during the 50s fusion phase while operating within 10-15% of key disruption thresholds. Engineered a 2×256 MLP actor-critic with a 50D diagnostic observation space, achieving 1.7ms average (<3.5ms worst-case) inference latency, below the 50ms real-time control target.",
     technologies: ["Python", "PyTorch", "Reinforcement Learning", "PPO", "Plasma Physics", "Gym-TORAX"],
     github: "https://github.com/VMaster123/Portfolio",
     demo: "#",
@@ -18,7 +18,7 @@ export const projectsData: Project[] = [
   },
   {
     title: "Physics-Guided Black Hole Image Reconstruction",
-    description: "Developing GAN models to reconstruct black hole images from spectral data, using plasma physics constraints to enhance fidelity and reduce reconstruction error across simulations. Applying physics-guided multi-objective training to ensure generated images capture realistic black hole features.",
+    description: "Built a physics-informed GAN for black hole image reconstruction from sparse UV-plane data, enforcing Fourier visibility constraints; achieved ~5-10 dB PSNR gains at 64×64 over adversarial-only baselines in 2,000 epochs. Applied physics-guided multi-objective training to preserve Doppler-boosted ring asymmetry and Fourier symmetry, maintaining physical fidelity under ~10% spectral sampling while reducing artifacts.",
     technologies: ["Python", "PyTorch", "GANs", "Computer Vision", "Plasma Physics", "Inverse Problems"],
     github: "https://github.com/VMaster123/Portfolio",
     demo: "#",
@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
   },
   {
     title: "Fish Schooling Modeling and Simulation",
-    description: "Built an agent-based predator-prey model in Scala and ran 1,050 Monte Carlo simulations to study fish school formation and predator strategies. Quantified survival outcomes, identifying optimal school formations achieving 60.6% average survival, closely matching ecological observations.",
+    description: "Developed and executed a large-scale predator-prey simulation in Scala, running 1,050 Monte Carlo trials to analyze emergent schooling behaviors and quantify group dynamics under stochastic perturbations. Tuned and evaluated cohesion, alignment, and evasion rules, identifying phase-transition regimes and achieving 60.6% mean survival, reproducing schooling patterns consistent with observed fish behavior and literature findings.",
     technologies: ["Scala", "Agent-Based Modeling", "Monte Carlo", "Simulation", "NetLogo"],
     github: "https://github.com/VMaster123/Portfolio/tree/main/Fish_Schooling_Project",
     demo: "#",

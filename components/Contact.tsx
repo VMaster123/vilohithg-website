@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { HiMail, HiExternalLink } from 'react-icons/hi'
+import { HiMail, HiExternalLink, HiGlobe } from 'react-icons/hi'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const contactInfo = [
@@ -11,6 +11,12 @@ const contactInfo = [
     label: 'Email',
     value: 'vilohithg@gmail.com',
     href: 'mailto:vilohithg@gmail.com',
+  },
+  {
+    icon: HiGlobe,
+    label: 'Website',
+    value: 'vilohithg-website.vercel.app',
+    href: 'https://vilohithg-website.vercel.app/',
   },
   {
     icon: FaLinkedin,

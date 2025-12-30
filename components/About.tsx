@@ -27,7 +27,13 @@ const skills = [
   'Git',
   'Docker',
   'Linux',
+  'Windows',
   'AWS',
+  'SolidWorks',
+  'Excel',
+  'Power BI',
+  'Seaborn',
+  'Matplotlib',
   'Scientific Machine Learning',
   'Partial Differential Equations',
   'Numerical Analysis',
@@ -73,10 +79,26 @@ export default function About() {
             <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
               <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Leadership</h4>
               <p className="text-gray-700 dark:text-gray-300 mb-2">
-                <span className="font-semibold">Southeast Analog Club GT Admin Officer:</span> Leading team to draft 
-                chapter Constitution, coordinating joint events with other campus organizations, and ensuring club 
-                compliance and active status.
+                <span className="font-semibold">Southeast Analog Club GT Admin Officer:</span> Served as GT Admin Officer, 
+                planning hackathons (100–120 attendees) and galas (150+), leading student and industry collaborations 
+                and overseeing finances, compliance, and student organization representation.
               </p>
+            </div>
+            
+            <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+              <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Professional Skills</h4>
+              <div className="flex flex-wrap gap-3 mb-6">
+                {['Project Management', 'Critical Thinking', 'Communication', 'Leadership', 'Tenacity', 'Adaptability', 'Teamwork'].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 bg-green-100 dark:bg-green-900/30 
+                             text-green-700 dark:text-green-300 rounded-full 
+                             font-medium text-sm md:text-base"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
             
             <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">

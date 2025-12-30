@@ -21,10 +21,10 @@ const experiences: ExperienceItem[] = [
     location: "Atlanta, Georgia",
     period: "August 2025 – Present",
     description: [
-      "Building an extensible test framework for randomized numerical linear algebra benchmarks, enabling automated evaluation of JL-based k-NN pipelines for scientific computing and machine learning workloads.",
-      "Developing parametrized test inputs and distance-preservation checks that reflect realistic high-dimensional data scenarios, exposing performance and accuracy limitations in sparse-friendly array backends and linear algebra routines."
+      "Applied Randomized Numerical Linear Algebra to scientific workloads (graphs, PDEs, SciML), benchmarking algorithms on datasets with 10³-10⁶ samples and 50–10³ features with JL-kNN as a representative example measuring distance preservation, rank-overlap, and approximate nearest-neighbor recall.",
+      "Built sparse benchmarking pipelines, incorporating FINCH cache-blocking research and testing 3–5 backends, 10–20 randomized projections, and multiple sparsity levels to systematically quantify rank stability, distance distortion, and backend performance."
     ],
-    technologies: ["Python", "NumPy", "Linear Algebra", "Benchmarking", "k-NN"]
+    technologies: ["Python", "NumPy", "Linear Algebra", "Benchmarking", "k-NN", "FINCH"]
   },
   {
     title: "Control Theory & Neural Dynamics Intern",

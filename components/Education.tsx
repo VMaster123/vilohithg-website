@@ -54,7 +54,7 @@ export default function Education() {
                 <div className="flex flex-wrap gap-4 text-sm md:text-base mb-4">
                   <div className="flex items-center gap-2">
                     <span className="font-semibold text-gray-900 dark:text-white">GPA:</span>
-                    <span className="text-gray-700 dark:text-gray-300">3.53</span>
+                    <span className="text-gray-700 dark:text-gray-300">3.6</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="font-semibold text-gray-900 dark:text-white">Period:</span>
@@ -72,15 +72,16 @@ export default function Education() {
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      'Partial Differential Equations',
+                      'Partial Differential Equations (PDEs)',
                       'Combinatorics',
                       'Algorithm Honors',
                       'Numerical Analysis',
                       'Computer Simulation',
-                      'Scientific Machine Learning',
+                      'Scientific Machine Learning (SciML)',
                       'Data Structures',
                       'Linear Algebra',
                       'Vector Calculus',
+                      'Scientific Writing',
                       'Statistics'
                     ].map((course, index) => (
                       <motion.span
